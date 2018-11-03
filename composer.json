@@ -1,0 +1,24 @@
+{
+    "name": "cleanique-coders/design-pattern",
+    "description": "Design Pattern in PHP",
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Nasrul Hazim",
+            "email": "nasrulhazim.m@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CleaniqueCoders\\DesignPattern\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CleaniqueCoders\\DesignPattern\\Tests\\": "tests/"
+        }
+    }
+}
