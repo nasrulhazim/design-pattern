@@ -12,5 +12,17 @@
         <testsuite name="Default">
             <directory suffix="Test.php">./tests</directory>
         </testsuite>
+
+        <testsuite name="Creational">
+            <directory suffix="Test.php">./tests/Creational</directory>
+        </testsuite>
+
+        <testsuite name="Structural">
+            <directory suffix="Test.php">./tests/Structural</directory>
+        </testsuite>
+
+        <testsuite name="Behaviour">
+            <directory suffix="Test.php">./tests/Behaviour</directory>
+        </testsuite>
     </testsuites>
 </phpunit>
