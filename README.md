@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nasrulhazim/design-pattern.svg?branch=master)](https://travis-ci.org/nasrulhazim/design-pattern) [![Latest Stable Version](https://poser.pugx.org/nasrulhazim/design-pattern/v/stable)](https://packagist.org/packages/nasrulhazim/design-pattern) [![Total Downloads](https://poser.pugx.org/nasrulhazim/design-pattern/downloads)](https://packagist.org/packages/nasrulhazim/design-pattern) [![License](https://poser.pugx.org/nasrulhazim/design-pattern/license)](https://packagist.org/packages/nasrulhazim/design-pattern)
+[![Build Status](https://travis-ci.org/nasrulhazim/design-pattern.svg?branch=master)](https://travis-ci.org/nasrulhazim/design-pattern) [![Documentation Status](https://readthedocs.org/projects/design-pattern-in-php/badge/?version=latest)](https://design-pattern-in-php.readthedocs.io/en/latest/?badge=latest) [![License](https://poser.pugx.org/nasrulhazim/design-pattern/license)](https://packagist.org/packages/nasrulhazim/design-pattern)
 
 # Design Pattern in PHP 
 
