@@ -10,23 +10,24 @@
    :target: https://packagist.org/packages/nasrulhazim/design-pattern
    :alt: License
 
-.. Design Pattern in PHP 
-
-=================
-DesignPatterInPHP
-=================
+=====================
+Design Pattern In PHP
+=====================
 
 An introduction to Design Pattern in PHP
 
-.. Creational
+Creational
+----------
 
 Creation design patterns solve object creation complexity by controlling object creation.
 
-.. Structural
+Structural
+----------
 
 Ease the design by identifying a simple way to realize relationships between entities.
 
-.. Behaviour
+Behaviour
+----------
 
 Identify common communication patterns
 between objects and realize these patterns, hence increase flexibility carrying out the communications.
