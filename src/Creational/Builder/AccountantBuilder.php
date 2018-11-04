@@ -6,40 +6,42 @@ use CleaniqueCoders\DesignPattern\Creational\Builder\Employee\Profile;
 
 class AccountantBuilder implements Contracts\Employee
 {
-    private $manager;
+    private $accountant;
 
     public function createProfile()
     {
-        $this->manager = new Employee\Accountant();
+        $this->accountant = new Employee\Accountant();
 
         return $this;
     }
 
     public function getProfile(): Profile
     {
-        return $this->manager;
+        return $this->accountant;
     }
 
     public function addAgreements()
     {
-        $this->manager->setDetail('Join Agreement', new Employee\Agreement());
-        $this->manager->setDetail('NDA Agreement', new Employee\Agreement());
+        $this->accountant->setDetail('Join Agreement', new Employee\Agreement());
+        $this->accountant->setDetail('NDA Agreement', new Employee\Agreement());
     }
 
     public function addAccessCard()
     {
-        $this->manager->setDetail('Access Card', new Employee\AccessCard());
+        $this->accountant->setDetail('Access Card', new Employee\AccessCard());
     }
 
     public function addAccount()
     {
-        $this->manager->setDetail('File Account', new Employee\Account());
-        $this->manager->setDetail('Bank Acount', new Employee\Account());
+        $this->accountant->setDetail('File Account', new Employee\Account());
+        $this->accountant->setDetail('Bank Acount', new Employee\Account());
+        $this->accountant->setDetail('E-mail Acount', new Employee\Account());
     }
 
     public function addLeave()
     {
-        $this->manager->setDetail('Annual Leave', new Employee\Leave());
-        $this->manager->setDetail('Maternity Leave', new Employee\Leave());
+        $this->accountant->setDetail('Annual Leave', new Employee\Leave());
+        $this->accountant->setDetail('Maternity Leave', new Employee\Leave());
+        $this->accountant->setDetail('Sick Leave', new Employee\Leave());
     }
 }
