@@ -15,7 +15,7 @@ class AllowanceContribution implements Contracts\Contribution
 
     public function contribution(): float
     {
-        return $this->salary * $this->percentage;
+        return $this->salary * ($this->percentage / 100);
     }
 
     public function type(): string
